@@ -1,0 +1,61 @@
+body {
+  background: #fefae0;
+  font-family: 'Pacifico', cursive;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  color : #bc6c25;
+}
+.app {
+  background: #fefae0;
+  padding: 30px;
+  height: 100vh;
+  
+}
+
+.todo-list{
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: ch100;
+
+}
+
+.input:hover {
+  cursor:  context-menu;
+  opacity: 0.7;
+  background-color: #dda15e;
+}
+
+.todo{
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+}
+
